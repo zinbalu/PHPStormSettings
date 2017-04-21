@@ -1,0 +1,30 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a60131ab-134d-4bec-bf55-e00c910f90a0" name="demo.econt.com" url="http://192.168.22.24">
+        <fileTransfer host="192.168.22.24" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="" dataProtectionLevel="Private" muteSftpMessages="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="2574de6d-5e22-4516-a0eb-3403d430876f" name="km-work-2.econt-bg.com" url="http://192.168.22.127">
+        <fileTransfer host="192.168.22.127" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" muteSftpMessages="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="566d1133-60b1-4424-8054-f5e1909fb3a7" name="dev.it-partner.bg" url="http://192.168.22.156">
+        <fileTransfer host="192.168.22.156" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="" dataProtectionLevel="Private" muteSftpMessages="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
