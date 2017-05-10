@@ -49,6 +49,13 @@
     <keyboard-shortcut first-keystroke="alt f7" />
     <mouse-shortcut keystroke="alt button3" />
   </action>
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="button2" />
+  </action>
+  <action id="GotoTypeDeclaration">
+    <mouse-shortcut keystroke="shift control button1" />
+  </action>
   <action id="NextProjectWindow">
     <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
     <mouse-shortcut keystroke="control button5" />
@@ -85,6 +92,14 @@
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="ThePlugin.ShowProjectSettings" />
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="f11" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
+  <action id="ToggleBookmarkWithMnemonic">
+    <keyboard-shortcut first-keystroke="ctrl f11" />
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="ctrl f8" />
     <mouse-shortcut keystroke="control button3" />
