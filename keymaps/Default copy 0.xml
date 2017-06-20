@@ -7,11 +7,14 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
+  <action id="CloseActiveTab">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
   <action id="CodeGlance.toggle" />
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
     <keyboard-shortcut first-keystroke="ctrl minus" />
-    <keyboard-shortcut first-keystroke="f5" />
+    <mouse-shortcut keystroke="alt button4" />
   </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="shift ctrl slash" />
@@ -44,6 +47,12 @@
   <action id="EditorCodeBlockStart">
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
     <mouse-shortcut keystroke="shift button5" />
+  </action>
+  <action id="EditorUnSelectWord" />
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+    <mouse-shortcut keystroke="alt button5" />
   </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f7" />
