@@ -12,7 +12,7 @@
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter home="C:\xampp\php\php.exe" id="b15dba9e-6aae-417e-ae91-ba28c9fb1cee" name="PHP 5.4.25" debugger_id="php.debugger.XDebug" />
-      <interpreter home="C:\Xampp 7.0\php\php.exe" id="120e0fbe-052e-4ffc-88d8-c5f3e64d96c7" name="PHP 7.0" debugger_id="php.debugger.XDebug" />
+      <interpreter home="C:\Program Files\IIS Express\PHP\v7.0\php.exe" id="120e0fbe-052e-4ffc-88d8-c5f3e64d96c7" name="PHP 7.0.21" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
@@ -351,10 +351,10 @@
           </loaded_extensions>
         </phpinfo>
       </interpreter>
-      <interpreter name="PHP 7.0">
-        <phpinfo binary_type="PHP" php_cgi="C:\Xampp 7.0\php\php-cgi.exe" php_cli="C:\Xampp 7.0\php\php.exe" path_separator=";" version="7.0.20">
+      <interpreter name="PHP 7.0.21">
+        <phpinfo binary_type="PHP" php_cgi="C:\Program Files\IIS Express\PHP\v7.0\php-cgi.exe" php_cli="C:\Program Files\IIS Express\PHP\v7.0\php.exe" path_separator=";" version="7.0.21">
           <additional_php_ini />
-          <configuration_file>C:\Xampp 7.0\php\php.ini</configuration_file>
+          <configuration_file>C:\Program Files\IIS Express\PHP\v7.0\php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
@@ -372,7 +372,7 @@
             <configuration_option name="auto_globals_jit" value="1" />
             <configuration_option name="auto_prepend_file" value="" />
             <configuration_option name="bcmath.scale" value="0" />
-            <configuration_option name="browscap" value="C:\Xampp 7.0\php\extras\browscap.ini" />
+            <configuration_option name="browscap" value="" />
             <configuration_option name="curl.cainfo" value="" />
             <configuration_option name="date.default_latitude" value="31.7667" />
             <configuration_option name="date.default_longitude" value="35.2333" />
@@ -385,14 +385,14 @@
             <configuration_option name="disable_classes" value="" />
             <configuration_option name="disable_functions" value="" />
             <configuration_option name="display_errors" value="1" />
-            <configuration_option name="display_startup_errors" value="1" />
+            <configuration_option name="display_startup_errors" value="" />
             <configuration_option name="doc_root" value="" />
             <configuration_option name="docref_ext" value="" />
             <configuration_option name="docref_root" value="" />
             <configuration_option name="enable_dl" value="" />
             <configuration_option name="enable_post_data_reading" value="1" />
             <configuration_option name="error_append_string" value="" />
-            <configuration_option name="error_log" value="C:\Xampp 7.0\php\logs\php_error_log" />
+            <configuration_option name="error_log" value="C:\Projects\Logs\PHP70x64ForIISExpress_errors.log" />
             <configuration_option name="error_prepend_string" value="" />
             <configuration_option name="error_reporting" value="22517" />
             <configuration_option name="exif.decode_jis_intel" value="JIS" />
@@ -403,7 +403,7 @@
             <configuration_option name="exif.encode_unicode" value="ISO-8859-15" />
             <configuration_option name="exit_on_timeout" value="0" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="C:\Xampp 7.0\php\ext" />
+            <configuration_option name="extension_dir" value="C:\Program Files\iis express\PHP\v7.0\ext\" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
@@ -422,12 +422,9 @@
             <configuration_option name="ignore_repeated_source" value="" />
             <configuration_option name="ignore_user_abort" value="0" />
             <configuration_option name="implicit_flush" value="1" />
-            <configuration_option name="include_path" value="C:\Xampp 7.0\php\PEAR" />
+            <configuration_option name="include_path" value=".;C:\php\pear" />
             <configuration_option name="input_encoding" value="" />
             <configuration_option name="internal_encoding" value="" />
-            <configuration_option name="intl.default_locale" value="" />
-            <configuration_option name="intl.error_level" value="0" />
-            <configuration_option name="intl.use_exceptions" value="0" />
             <configuration_option name="log_errors" value="1" />
             <configuration_option name="log_errors_max_len" value="1024" />
             <configuration_option name="mail.add_x_header" value="1" />
@@ -450,7 +447,7 @@
             <configuration_option name="mbstring.substitute_character" value="" />
             <configuration_option name="mcrypt.algorithms_dir" value="" />
             <configuration_option name="mcrypt.modes_dir" value="" />
-            <configuration_option name="memory_limit" value="1024M" />
+            <configuration_option name="memory_limit" value="128M" />
             <configuration_option name="mysqli.allow_local_infile" value="1" />
             <configuration_option name="mysqli.allow_persistent" value="1" />
             <configuration_option name="mysqli.default_host" value="" />
@@ -462,7 +459,7 @@
             <configuration_option name="mysqli.max_persistent" value="-1" />
             <configuration_option name="mysqli.reconnect" value="" />
             <configuration_option name="mysqli.rollback_on_cached_plink" value="0" />
-            <configuration_option name="mysqlnd.collect_memory_statistics" value="1" />
+            <configuration_option name="mysqlnd.collect_memory_statistics" value="" />
             <configuration_option name="mysqlnd.collect_statistics" value="1" />
             <configuration_option name="mysqlnd.debug" value="" />
             <configuration_option name="mysqlnd.fetch_data_copy" value="0" />
@@ -474,6 +471,8 @@
             <configuration_option name="mysqlnd.sha256_server_public_key" value="" />
             <configuration_option name="mysqlnd.trace_alloc" value="" />
             <configuration_option name="open_basedir" value="" />
+            <configuration_option name="openssl.cafile" value="" />
+            <configuration_option name="openssl.capath" value="" />
             <configuration_option name="output_buffering" value="0" />
             <configuration_option name="output_encoding" value="" />
             <configuration_option name="output_handler" value="" />
@@ -507,13 +506,13 @@
             <configuration_option name="session.gc_divisor" value="1000" />
             <configuration_option name="session.gc_maxlifetime" value="1440" />
             <configuration_option name="session.gc_probability" value="1" />
-            <configuration_option name="session.hash_bits_per_character" value="4" />
+            <configuration_option name="session.hash_bits_per_character" value="5" />
             <configuration_option name="session.hash_function" value="0" />
             <configuration_option name="session.lazy_write" value="1" />
             <configuration_option name="session.name" value="PHPSESSID" />
             <configuration_option name="session.referer_check" value="" />
             <configuration_option name="session.save_handler" value="files" />
-            <configuration_option name="session.save_path" value="C:\Xampp 7.0\tmp" />
+            <configuration_option name="session.save_path" value="C:\WINDOWS\temp" />
             <configuration_option name="session.serialize_handler" value="php" />
             <configuration_option name="session.upload_progress.cleanup" value="1" />
             <configuration_option name="session.upload_progress.enabled" value="1" />
@@ -534,16 +533,37 @@
             <configuration_option name="soap.wsdl_cache_ttl" value="86400" />
             <configuration_option name="sql.safe_mode" value="" />
             <configuration_option name="sys_temp_dir" value="" />
-            <configuration_option name="track_errors" value="1" />
+            <configuration_option name="tidy.clean_output" value="" />
+            <configuration_option name="tidy.default_config" value="" />
+            <configuration_option name="track_errors" value="" />
             <configuration_option name="unserialize_callback_func" value="" />
             <configuration_option name="upload_max_filesize" value="2M" />
-            <configuration_option name="upload_tmp_dir" value="C:\Xampp 7.0\tmp" />
-            <configuration_option name="url_rewriter.tags" value="a=href,area=href,frame=src,form=,fieldset=" />
+            <configuration_option name="upload_tmp_dir" value="C:\WINDOWS\temp" />
+            <configuration_option name="url_rewriter.tags" value="a=href,area=href,frame=src,input=src,form=fakeentry" />
             <configuration_option name="user_agent" value="" />
             <configuration_option name="user_dir" value="" />
             <configuration_option name="user_ini.cache_ttl" value="300" />
             <configuration_option name="user_ini.filename" value=".user.ini" />
             <configuration_option name="variables_order" value="GPCS" />
+            <configuration_option name="wincache.apppoolid" value="" />
+            <configuration_option name="wincache.chkinterval" value="30" />
+            <configuration_option name="wincache.debuglevel" value="0" />
+            <configuration_option name="wincache.enablecli" value="0" />
+            <configuration_option name="wincache.fcachesize" value="24" />
+            <configuration_option name="wincache.fcenabled" value="1" />
+            <configuration_option name="wincache.fcenabledfilter" value="" />
+            <configuration_option name="wincache.fcndetect" value="1" />
+            <configuration_option name="wincache.filecount" value="4096" />
+            <configuration_option name="wincache.filemapdir" value="" />
+            <configuration_option name="wincache.ignorelist" value="" />
+            <configuration_option name="wincache.localheap" value="0" />
+            <configuration_option name="wincache.maxfilesize" value="256" />
+            <configuration_option name="wincache.namesalt" value="" />
+            <configuration_option name="wincache.reroute_enabled" value="0" />
+            <configuration_option name="wincache.scachesize" value="8" />
+            <configuration_option name="wincache.ttlmax" value="1200" />
+            <configuration_option name="wincache.ucachesize" value="8" />
+            <configuration_option name="wincache.ucenabled" value="1" />
             <configuration_option name="windows.show_crt_warning" value="0" />
             <configuration_option name="xdebug.auto_trace" value="0" />
             <configuration_option name="xdebug.cli_color" value="0" />
@@ -600,14 +620,14 @@
             <configuration_option name="xdebug.trace_enable_trigger_value" value="" />
             <configuration_option name="xdebug.trace_format" value="0" />
             <configuration_option name="xdebug.trace_options" value="0" />
-            <configuration_option name="xdebug.trace_output_dir" value="C:\Xampp 7.0\php\logs" />
+            <configuration_option name="xdebug.trace_output_dir" value="C:\Program Files\IIS Express\PHP\v7.0\logs" />
             <configuration_option name="xdebug.trace_output_name" value="trace.%c" />
             <configuration_option name="xdebug.var_display_max_children" value="128" />
             <configuration_option name="xdebug.var_display_max_data" value="512" />
             <configuration_option name="xdebug.var_display_max_depth" value="3" />
             <configuration_option name="xmlrpc_error_number" value="0" />
             <configuration_option name="xmlrpc_errors" value="0" />
-            <configuration_option name="zend.assertions" value="1" />
+            <configuration_option name="zend.assertions" value="-1" />
             <configuration_option name="zend.detect_unicode" value="1" />
             <configuration_option name="zend.enable_gc" value="1" />
             <configuration_option name="zend.multibyte" value="0" />
@@ -629,37 +649,39 @@
             <extension name="SPL" />
             <extension name="SimpleXML" />
             <extension name="bcmath" />
-            <extension name="bz2" />
             <extension name="calendar" />
             <extension name="ctype" />
             <extension name="curl" />
             <extension name="date" />
             <extension name="dom" />
             <extension name="exif" />
-            <extension name="fileinfo" />
             <extension name="filter" />
             <extension name="gd" />
             <extension name="gettext" />
             <extension name="hash" />
             <extension name="iconv" />
-            <extension name="intl" />
+            <extension name="imap" />
             <extension name="json" />
             <extension name="libxml" />
             <extension name="mbstring" />
             <extension name="mcrypt" />
             <extension name="mysqli" />
             <extension name="mysqlnd" />
+            <extension name="openssl" />
             <extension name="pcre" />
             <extension name="pdo_mysql" />
             <extension name="pdo_sqlite" />
             <extension name="session" />
             <extension name="soap" />
             <extension name="standard" />
+            <extension name="tidy" />
             <extension name="tokenizer" />
             <extension name="wddx" />
+            <extension name="wincache" />
             <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
+            <extension name="xmlrpc" />
             <extension name="xmlwriter" />
             <extension name="zip" />
             <extension name="zlib" />
