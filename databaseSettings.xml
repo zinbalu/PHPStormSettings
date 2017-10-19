@@ -1,7 +1,6 @@
 <application>
-  <component name="DatabaseSettings" version="2">
+  <component name="DatabaseSettings">
     <option name="execute-inside-option" value="3" />
-    <option name="execute-selection-option" value="3" />
     <option name="error-in-editor" value="false" />
     <text-mode in-literals="true">
       <parameter-patterns>
@@ -11,9 +10,9 @@
         <parameter-pattern value="$\{[^$\{\}]*\}" />
         <parameter-pattern value="$\w+$" />
         <parameter-pattern value="#(\w+)#" scope="XML" predefined="true" />
-        <parameter-pattern value="\?(\d+)" in-scripts="false" in-literals="false" predefined="true" />
-        <parameter-pattern value="\$\{([^\{\}]*)\}" in-scripts="false" in-literals="false" predefined="true" />
-        <parameter-pattern value="\$\(([^\)]+)\)" in-scripts="false" in-literals="false" predefined="true" />
+        <parameter-pattern value="\?(\d+)" in-scripts="false" in-literals="false" />
+        <parameter-pattern value="\$\{([^\{\}]*)\}" in-scripts="false" in-literals="false" />
+        <parameter-pattern value="\$\(([^\)]+)\)" in-scripts="false" in-literals="false" />
         <parameter-pattern value="\$(\w+)\$" in-scripts="false" in-literals="false" scope="*,-PostgreSQL" predefined="true" />
         <parameter-pattern value="(?&lt;=\W|\A)\$(\d+|[a-zA-Z_](?:\w|\.)*)\$?(?=\W|\z)" in-scripts="false" in-literals="false" scope="*,-SQL,Oracle,OracleSqlPlus,PostgreSQL,PostgresPLSQL" predefined="true" />
         <parameter-pattern value="(?&lt;=\W|\A)#(\d+|[a-zA-Z_](?:\w|\.)*)#?(?=\W|\z)" in-scripts="false" in-literals="false" scope="*,-SQL,Oracle,OracleSqlPlus,PostgreSQL,PostgresPLSQL" predefined="true" />
@@ -21,7 +20,7 @@
       </parameter-patterns>
     </text-mode>
     <csv-formats>
-      <csv-format name="Tab Separated Values (TSV)" id="b43994b1-ae45-479d-857f-0d45e629430c">
+      <csv-format name="Tab Separated Values (TSV)">
         <data>
           <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="&#9;" recordSeparator="&#10;">
             <quotation>
@@ -31,7 +30,7 @@
           </record-format>
         </data>
       </csv-format>
-      <csv-format name="Comma Separated Values (CSV)" id="02943182-eddb-4a93-9f00-5296518e9995">
+      <csv-format name="Comma Separated Values (CSV)">
         <data>
           <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
             <quotation>
