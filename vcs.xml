@@ -1,4 +1,15 @@
 <application>
+  <component name="GitRememberedInputs">
+    <option name="visitedUrls">
+      <list>
+        <UrlAndUserName>
+          <option name="url" value="https://p_ognqnov@bitbucket.org/p_ognqnov/general.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+      </list>
+    </option>
+    <option name="cloneParentDir" value="C:\Projects\Econt\trunk.ee\include\classes" />
+  </component>
   <component name="VcsApplicationSettings">
     <option name="SHOW_WHITESPACES_IN_LST" value="false" />
   </component>
