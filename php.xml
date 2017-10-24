@@ -355,7 +355,7 @@
         </phpinfo>
       </interpreter>
       <interpreter name="PHP 7.0.21">
-        <phpinfo binary_type="PHP" php_cgi="C:\Program Files\IIS Express\PHP\v7.0\php-cgi.exe" php_cli="C:\Program Files\IIS Express\PHP\v7.0\php.exe" path_separator=";" version="7.0.21">
+        <phpinfo binary_type="PHP" php_cgi="C:\Program Files\IIS Express\PHP\v7.0\php-cgi.exe" php_cli="C:\Program Files\IIS Express\PHP\v7.0\php.exe" path_separator=";" version="7.0.15">
           <additional_php_ini />
           <configuration_file>C:\Program Files\IIS Express\PHP\v7.0\php.ini</configuration_file>
           <configuration_options>
@@ -395,9 +395,9 @@
             <configuration_option name="enable_dl" value="" />
             <configuration_option name="enable_post_data_reading" value="1" />
             <configuration_option name="error_append_string" value="" />
-            <configuration_option name="error_log" value="C:\Projects\Logs\PHP70x64ForIISExpress_errors.log" />
+            <configuration_option name="error_log" value="C:\Logs\PHP70x64ForIISExpress_errors.log" />
             <configuration_option name="error_prepend_string" value="" />
-            <configuration_option name="error_reporting" value="22517" />
+            <configuration_option name="error_reporting" value="32757" />
             <configuration_option name="exif.decode_jis_intel" value="JIS" />
             <configuration_option name="exif.decode_jis_motorola" value="JIS" />
             <configuration_option name="exif.decode_unicode_intel" value="UCS-2LE" />
@@ -428,6 +428,9 @@
             <configuration_option name="include_path" value=".;C:\php\pear" />
             <configuration_option name="input_encoding" value="" />
             <configuration_option name="internal_encoding" value="" />
+            <configuration_option name="intl.default_locale" value="" />
+            <configuration_option name="intl.error_level" value="0" />
+            <configuration_option name="intl.use_exceptions" value="0" />
             <configuration_option name="log_errors" value="1" />
             <configuration_option name="log_errors_max_len" value="1024" />
             <configuration_option name="mail.add_x_header" value="1" />
@@ -450,7 +453,7 @@
             <configuration_option name="mbstring.substitute_character" value="" />
             <configuration_option name="mcrypt.algorithms_dir" value="" />
             <configuration_option name="mcrypt.modes_dir" value="" />
-            <configuration_option name="memory_limit" value="128M" />
+            <configuration_option name="memory_limit" value="512M" />
             <configuration_option name="mysqli.allow_local_infile" value="1" />
             <configuration_option name="mysqli.allow_persistent" value="1" />
             <configuration_option name="mysqli.default_host" value="" />
@@ -487,7 +490,7 @@
             <configuration_option name="phar.require_hash" value="1" />
             <configuration_option name="post_max_size" value="8M" />
             <configuration_option name="precision" value="14" />
-            <configuration_option name="realpath_cache_size" value="4096K" />
+            <configuration_option name="realpath_cache_size" value="16K" />
             <configuration_option name="realpath_cache_ttl" value="120" />
             <configuration_option name="register_argc_argv" value="1" />
             <configuration_option name="report_memleaks" value="1" />
@@ -538,7 +541,7 @@
             <configuration_option name="sys_temp_dir" value="" />
             <configuration_option name="tidy.clean_output" value="" />
             <configuration_option name="tidy.default_config" value="" />
-            <configuration_option name="track_errors" value="" />
+            <configuration_option name="track_errors" value="1" />
             <configuration_option name="unserialize_callback_func" value="" />
             <configuration_option name="upload_max_filesize" value="2M" />
             <configuration_option name="upload_tmp_dir" value="C:\WINDOWS\temp" />
@@ -664,6 +667,7 @@
             <extension name="hash" />
             <extension name="iconv" />
             <extension name="imap" />
+            <extension name="intl" />
             <extension name="json" />
             <extension name="libxml" />
             <extension name="mbstring" />
