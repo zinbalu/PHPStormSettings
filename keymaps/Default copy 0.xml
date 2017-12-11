@@ -138,4 +138,8 @@
   <action id="com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction">
     <keyboard-shortcut first-keystroke="shift ctrl back_quote" />
   </action>
+  <action id="hg4idea.QFold" />
+  <action id="tasks.show.task.description">
+    <keyboard-shortcut first-keystroke="shift alt d" />
+  </action>
 </keymap>
