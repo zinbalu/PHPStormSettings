@@ -93,9 +93,16 @@
   </action>
   <action id="RecentChangedFiles" />
   <action id="SavaAs" />
+  <action id="ShowBookmarks">
+    <keyboard-shortcut first-keystroke="shift f11" />
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="ctrl f2" />
     <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+  <action id="Subversion.Copy">
+    <mouse-shortcut keystroke="control alt button5" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
@@ -137,5 +144,9 @@
   <action id="com.jetbrains.php.framework.FrameworkRunConsoleAction" />
   <action id="com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction">
     <keyboard-shortcut first-keystroke="shift ctrl back_quote" />
+  </action>
+  <action id="hg4idea.QFold" />
+  <action id="tasks.show.task.description">
+    <keyboard-shortcut first-keystroke="shift alt d" />
   </action>
 </keymap>
