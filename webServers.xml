@@ -25,6 +25,9 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="6d026877-0c43-4222-9a39-6995a911568f" name="trunk.cm" url="http://trunk.cm">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
