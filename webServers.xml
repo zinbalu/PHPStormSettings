@@ -28,6 +28,9 @@
       <webServer id="6d026877-0c43-4222-9a39-6995a911568f" name="trunk.cm" url="http://trunk.cm">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="db10ee02-190b-4025-8ddf-9586128cb7e5" name="work-1.ee" url="http://work-1.ee">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
