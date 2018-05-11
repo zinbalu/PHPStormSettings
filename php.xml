@@ -680,6 +680,7 @@
             <extension name="pdo_sqlite" />
             <extension name="session" />
             <extension name="soap" />
+            <extension name="ssh2" />
             <extension name="standard" />
             <extension name="tidy" />
             <extension name="tokenizer" />
