@@ -28,6 +28,9 @@
       <webServer id="4226d7d3-a74e-4725-952f-d12ed439e5b7" name="work-1.cm" url="http://work-1.cm">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="c8e63b75-ddcb-445b-92e0-93c298afd9e2" name="http://work-1.oc" url="http://work-1.oc">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
