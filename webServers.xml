@@ -34,6 +34,9 @@
       <webServer id="7f9de07c-75be-4fdf-b29e-dfa9bd2bce76" name="dev-1.opencart" url="http://dev-1.opencart">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="c8e63b75-ddcb-445b-92e0-93c298afd9e2" name="http://work-1.oc" url="http://work-1.oc">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
