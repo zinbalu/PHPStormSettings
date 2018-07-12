@@ -25,13 +25,7 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="6d026877-0c43-4222-9a39-6995a911568f" name="trunk.cm" url="http://trunk.cm">
-        <fileTransfer port="0" accessType="LOCAL" />
-      </webServer>
-      <webServer id="db10ee02-190b-4025-8ddf-9586128cb7e5" name="work-1.ee" url="http://work-1.ee">
-        <fileTransfer port="0" accessType="LOCAL" />
-      </webServer>
-      <webServer id="7f9de07c-75be-4fdf-b29e-dfa9bd2bce76" name="dev-1.opencart" url="http://dev-1.opencart">
+      <webServer id="4226d7d3-a74e-4725-952f-d12ed439e5b7" name="work-1.cm" url="http://work-1.cm">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
       <webServer id="c8e63b75-ddcb-445b-92e0-93c298afd9e2" name="http://work-1.oc" url="http://work-1.oc">
