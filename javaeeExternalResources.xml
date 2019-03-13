@@ -1,5 +1,8 @@
 <application>
   <component name="ExternalResourceManagerImpl">
+    <resource url="http://schemas.xmlsoap.org/soap/encoding/" location="$USER_HOME$/.PhpStorm2018.2/system/extResources/cad5bd9d_.xml" />
     <resource url="http://schemas.xmlsoap.org/soap/envelope/" location="$USER_HOME$/.PhpStorm2018.1/system/extResources/a74f2ac0_.xml" />
+    <resource url="http://schemas.xmlsoap.org/wsdl/" location="$USER_HOME$/.PhpStorm2018.2/system/extResources/42abd8c6_.xml" />
+    <resource url="http://schemas.xmlsoap.org/wsdl/soap/" location="$USER_HOME$/.PhpStorm2018.2/system/extResources/9f6330fe_.xml" />
   </component>
 </application>
