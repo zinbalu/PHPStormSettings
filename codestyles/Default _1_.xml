@@ -24,6 +24,7 @@
     <option name="SPACE_AFTER_COLON_IN_RETURN_TYPE" value="false" />
   </PHPCodeStyleSettings>
   <SqlCodeStyleSettings version="1">
+    <option name="myVersion" value="1" />
     <option name="ALIAS_CASE" value="4" />
     <option name="KEYWORD_CASE" value="0" />
     <option name="TYPE_CASE" value="3" />
@@ -42,6 +43,12 @@
     <option name="FROM_INDENT_JOIN" value="false" />
     <option name="WHERE_EL_WRAP" value="3" />
     <option name="WHERE_EL_BOUND" value="2" />
+    <option name="TABLE_OPENING" value="1" />
+    <option name="TABLE_CONTENT" value="2" />
+    <option name="TABLE_CLOSING" value="3" />
+    <option name="POST_OPT_WRAP_1" value="true" />
+    <option name="IMP_DECLARE_EL_WRAP" value="1" />
+    <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
     <option name="CORTEGE_CLOSING" value="1" />
     <option name="EXPR_CASE_THEN_ALIGN" value="true" />
     <option name="EXPR_CASE_END" value="1" />
@@ -50,6 +57,11 @@
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
+  <codeStyleSettings language="HTML">
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="JSON">
     <indentOptions>
       <option name="INDENT_SIZE" value="4" />
