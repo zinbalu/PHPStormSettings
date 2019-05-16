@@ -39,6 +39,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="8866098c-c7f7-4ab1-9a32-7609e771a38a" name="instrumenti" url="http://instrumentionline.com/index.php">
+        <fileTransfer host="ftp.instrumentionline.com" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
