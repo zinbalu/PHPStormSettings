@@ -31,6 +31,14 @@
       <webServer id="c8e63b75-ddcb-445b-92e0-93c298afd9e2" name="http://work-1.oc" url="http://work-1.oc">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="30d8584d-7b21-4cfb-a4e4-e198b7c016ca" name="butsko" url="https://www.butsko.bg">
+        <fileTransfer host="buggy.bg" port="21" rootFolder="/butsko.bg">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
