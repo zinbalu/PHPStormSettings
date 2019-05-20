@@ -47,6 +47,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="0164a080-5e4e-48ab-9891-547db4a16753" name="ftp.hygiene.bg" url="http://ftp.hygiene.bg">
+        <fileTransfer host="ftp.hygiene.bg" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
