@@ -7,17 +7,17 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="C:\Program Files\IIS Express\PHP\v7.0\php.exe" id="b15dba9e-6aae-417e-ae91-ba28c9fb1cee" name="PHP 5.4.25" debugger_id="php.debugger.XDebug" />
+      <interpreter home="C:\Program Files (x86)\IIS Express\PHP\v5.6\php.exe" id="b15dba9e-6aae-417e-ae91-ba28c9fb1cee" name="PHP 5.4.25" debugger_id="php.debugger.XDebug" />
       <interpreter home="C:\Program Files\IIS Express\PHP\v7.0\php.exe" id="120e0fbe-052e-4ffc-88d8-c5f3e64d96c7" name="PHP 7.0.21" debugger_id="php.debugger.XDebug" />
-      <interpreter home="C:\Program Files (x86)\IIS Express\PHP\v7.1\php.exe" id="97f4692b-fa48-4f40-8ebd-76104f36e4dc" name="PHP 7.1.19" debugger_id="php.debugger.XDebug" />
+      <interpreter home="C:\Program Files\IIS Express\PHP\v7.1\php.exe" id="97f4692b-fa48-4f40-8ebd-76104f36e4dc" name="PHP 7.1.19" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 7.1.19">
-        <phpinfo binary_type="PHP" php_cgi="C:\Program Files (x86)\IIS Express\PHP\v7.1\php-cgi.exe" php_cli="C:\Program Files (x86)\IIS Express\PHP\v7.1\php.exe" path_separator=";" version="7.1.19">
+        <phpinfo binary_type="PHP" php_cgi="C:\Program Files\IIS Express\PHP\v7.1\php-cgi.exe" php_cli="C:\Program Files\IIS Express\PHP\v7.1\php.exe" path_separator=";" version="7.1.19">
           <additional_php_ini />
-          <configuration_file>C:\Program Files (x86)\IIS Express\PHP\v7.1\php.ini</configuration_file>
+          <configuration_file>C:\Program Files\IIS Express\PHP\v7.1\php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="include_path" value=".;C:\php\pear" />
           </configuration_options>
@@ -46,7 +46,6 @@
             <extension name="hash" />
             <extension name="iconv" />
             <extension name="imap" />
-            <extension name="ionCube Loader" />
             <extension name="json" />
             <extension name="libxml" />
             <extension name="mbstring" />
@@ -76,17 +75,13 @@
         </phpinfo>
       </interpreter>
       <interpreter name="PHP 5.4.25">
-        <phpinfo binary_type="PHP" php_cgi="C:\Program Files\IIS Express\PHP\v7.0\php-cgi.exe" php_cli="C:\Program Files\IIS Express\PHP\v7.0\php.exe" path_separator=";" version="7.0.15">
+        <phpinfo binary_type="PHP" php_cgi="C:\Program Files (x86)\IIS Express\PHP\v5.6\php-cgi.exe" php_cli="C:\Program Files (x86)\IIS Express\PHP\v5.6\php.exe" path_separator=";" version="5.6.31">
           <additional_php_ini />
-          <configuration_file>C:\Program Files\IIS Express\PHP\v7.0\php.ini</configuration_file>
+          <configuration_file>C:\Program Files (x86)\IIS Express\PHP\v5.6\php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="include_path" value=".;C:\php\pear" />
           </configuration_options>
-          <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.5.5">
-              <debug_extensions />
-            </debugger_info>
-          </debuggers>
+          <debuggers />
           <loaded_extensions>
             <extension name="Core" />
             <extension name="PDO" />
@@ -100,34 +95,34 @@
             <extension name="curl" />
             <extension name="date" />
             <extension name="dom" />
+            <extension name="ereg" />
             <extension name="exif" />
             <extension name="filter" />
+            <extension name="ftp" />
             <extension name="gd" />
             <extension name="gettext" />
             <extension name="hash" />
             <extension name="iconv" />
             <extension name="imap" />
-            <extension name="intl" />
-            <extension name="ionCube Loader" />
             <extension name="json" />
             <extension name="libxml" />
             <extension name="mbstring" />
             <extension name="mcrypt" />
+            <extension name="mhash" />
+            <extension name="mysql" />
             <extension name="mysqli" />
             <extension name="mysqlnd" />
+            <extension name="odbc" />
             <extension name="openssl" />
             <extension name="pcre" />
             <extension name="pdo_mysql" />
             <extension name="pdo_sqlite" />
             <extension name="session" />
             <extension name="soap" />
-            <extension name="ssh2" />
             <extension name="standard" />
             <extension name="tidy" />
             <extension name="tokenizer" />
             <extension name="wddx" />
-            <extension name="wincache" />
-            <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlrpc" />
