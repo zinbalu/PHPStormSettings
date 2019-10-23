@@ -1,6 +1,7 @@
 <application>
   <component name="PathMacrosImpl">
     <macro name="Node" value="C:/Program Files/nodejs" />
+    <macro name="mods" value="C:/Program Files/nodejs/node_modules" />
     <ignoredMacro name="MESSAGE" />
     <ignoredMacro name="FILE_PATH" />
     <ignoredMacro name="LINE" />
