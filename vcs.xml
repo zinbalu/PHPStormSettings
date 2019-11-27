@@ -30,6 +30,10 @@
           <option name="url" value="https://github.com/GoogleChrome/push-notifications.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/web-push-libs/web-push-php.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Projects\Econt" />
