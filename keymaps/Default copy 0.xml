@@ -76,9 +76,11 @@
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
   </action>
+  <action id="GotoTest" />
   <action id="GotoTypeDeclaration">
     <mouse-shortcut keystroke="shift control button1" />
   </action>
+  <action id="Images.ShowThumbnails" />
   <action id="NextProjectWindow">
     <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
     <mouse-shortcut keystroke="control button5" />
@@ -98,6 +100,11 @@
     <mouse-shortcut keystroke="alt button2" />
   </action>
   <action id="RecentChangedFiles" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
+  <action id="RunDashboard.ShowConfigurations" />
   <action id="SavaAs" />
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="shift f11" />
