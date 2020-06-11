@@ -1,0 +1,15 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="192.168.22.24" id="311ed1bb-c946-40ee-b195-78c8b531bbca" port="22" customName="demo.econt.com" nameFormat="CUSTOM" username="p_ognqnov">
+        <option name="customName" value="demo.econt.com" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="192.168.22.127" id="cec1714a-7152-4a18-8646-07df102e2de5" port="22" customName="km-work-2.econt-bg.com" nameFormat="CUSTOM" username="p_ognqnov">
+        <option name="customName" value="km-work-2.econt-bg.com" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="192.168.22.156" id="ba9ac071-70ca-4e40-ba08-e26bfdbf2d87" port="22" customName="dev.it-partner.bg" nameFormat="CUSTOM" username="p_ognqnov">
+        <option name="customName" value="dev.it-partner.bg" />
+      </sshConfig>
+    </configs>
+  </component>
+</application>
