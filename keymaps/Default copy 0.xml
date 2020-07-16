@@ -58,6 +58,9 @@
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
     <mouse-shortcut keystroke="shift button5" />
   </action>
+  <action id="EditorHungryBackSpace">
+    <keyboard-shortcut first-keystroke="ctrl alt back_space" />
+  </action>
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="shift ctrl j" />
     <keyboard-shortcut first-keystroke="shift ctrl x" />
