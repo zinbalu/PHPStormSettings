@@ -7,9 +7,9 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="C:\Program Files (x86)\IIS Express\PHP\v5.6\php.exe" id="b15dba9e-6aae-417e-ae91-ba28c9fb1cee" name="PHP 5.4.25" debugger_id="php.debugger.XDebug" />
-      <interpreter home="C:\Program Files\IIS Express\PHP\v7.0\php.exe" id="120e0fbe-052e-4ffc-88d8-c5f3e64d96c7" name="PHP 7.0.21" debugger_id="php.debugger.XDebug" />
-      <interpreter home="C:\Program Files\IIS Express\PHP\v7.1\php.exe" id="97f4692b-fa48-4f40-8ebd-76104f36e4dc" name="PHP 7.1.19" debugger_id="php.debugger.XDebug" />
+      <interpreter id="b15dba9e-6aae-417e-ae91-ba28c9fb1cee" name="PHP 5.4.25" home="C:\Program Files (x86)\IIS Express\PHP\v5.6\php.exe" debugger_id="php.debugger.XDebug" />
+      <interpreter id="120e0fbe-052e-4ffc-88d8-c5f3e64d96c7" name="PHP 7.0.21" home="C:\Program Files\IIS Express\PHP\v7.0\php.exe" debugger_id="php.debugger.XDebug" />
+      <interpreter id="97f4692b-fa48-4f40-8ebd-76104f36e4dc" name="PHP 7.1.19" home="C:\Program Files\IIS Express\PHP\v7.1\php.exe" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
