@@ -12,7 +12,7 @@
   <option name="CONSOLE_FONT_NAME" value="Source Code Pro" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="53ff34" />
-    <option name="ANNOTATIONS_COLOR" value="" />
+    <option name="ANNOTATIONS_COLOR" value="3c3f41" />
     <option name="ANNOTATIONS_MERGED_COLOR" value="" />
     <option name="CARET_COLOR" value="56ff00" />
     <option name="CARET_ROW_COLOR" value="23e5c" />
@@ -35,6 +35,11 @@
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="" />
     <option name="TEARLINE_COLOR" value="3c3f41" />
+    <option name="VCS_ANNOTATIONS_COLOR_1" value="" />
+    <option name="VCS_ANNOTATIONS_COLOR_2" value="" />
+    <option name="VCS_ANNOTATIONS_COLOR_3" value="" />
+    <option name="VCS_ANNOTATIONS_COLOR_4" value="" />
+    <option name="VCS_ANNOTATIONS_COLOR_5" value="" />
     <option name="WHITESPACES" value="151515" />
   </colors>
   <attributes>
