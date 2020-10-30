@@ -1,5 +1,6 @@
 <application>
   <component name="EditorSettings">
+    <option name="SHOW_INSPECTION_WIDGET" value="false" />
     <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
   </component>
   <component name="TodoConfiguration">

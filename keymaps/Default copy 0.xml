@@ -87,6 +87,9 @@
     <mouse-shortcut keystroke="shift control button1" />
   </action>
   <action id="Images.ShowThumbnails" />
+  <action id="MoveEditorToOppositeTabGroup">
+    <mouse-shortcut keystroke="shift button3" />
+  </action>
   <action id="NextProjectWindow">
     <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
     <mouse-shortcut keystroke="control button5" />
