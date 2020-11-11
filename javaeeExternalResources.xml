@@ -4,5 +4,6 @@
     <resource url="http://schemas.xmlsoap.org/soap/envelope/" location="$USER_HOME$/.PhpStorm2018.1/system/extResources/a74f2ac0_.xml" />
     <resource url="http://schemas.xmlsoap.org/wsdl/" location="$USER_HOME$/.PhpStorm2018.2/system/extResources/42abd8c6_.xml" />
     <resource url="http://schemas.xmlsoap.org/wsdl/soap/" location="$USER_HOME$/.PhpStorm2018.2/system/extResources/9f6330fe_.xml" />
+    <resource url="http://work-2.ee/services/Shipments/R/schema.xsd" location="$USER_HOME$/AppData/Local/JetBrains/PhpStorm2020.3/extResources/d538d337_schema.xsd" />
   </component>
 </application>
