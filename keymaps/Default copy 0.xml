@@ -38,6 +38,9 @@
     <keyboard-shortcut first-keystroke="ctrl f9" />
   </action>
   <action id="Console.TableResult.SetDefault" />
+  <action id="CopyContentRootPath">
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
+  </action>
   <action id="CopyElement" />
   <action id="CopyPathFromRepositoryRootProvider">
     <keyboard-shortcut first-keystroke="alt c" />
@@ -87,6 +90,7 @@
     <mouse-shortcut keystroke="shift control button1" />
   </action>
   <action id="Images.ShowThumbnails" />
+  <action id="IntroduceConstant" />
   <action id="MoveEditorToOppositeTabGroup">
     <mouse-shortcut keystroke="shift button3" />
   </action>
@@ -109,6 +113,9 @@
     <mouse-shortcut keystroke="alt button2" />
   </action>
   <action id="RecentChangedFiles" />
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="shift ctrl t" />
@@ -146,6 +153,7 @@
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="ThePlugin.ShowProjectSettings" />
+  <action id="TodoViewGroupByFlattenPackage" />
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="f11" />
     <keyboard-shortcut first-keystroke="ctrl b" />
