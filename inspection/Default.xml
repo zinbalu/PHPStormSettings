@@ -5,6 +5,17 @@
       <language minSize="148" name="PHP" />
     </Languages>
   </inspection_tool>
+  <inspection_tool class="HttpUrlsUsage" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="ignoredUrls">
+      <list>
+        <option value="http://localhost" />
+        <option value="http://127.0.0.1" />
+        <option value="http://www.w3.org/2000/svg" />
+        <option value="http://www.w3.org/2001/XMLSchema-instance" />
+        <option value="http://demo.econt.com" />
+      </list>
+    </option>
+  </inspection_tool>
   <inspection_tool class="PhpComposerExtensionStubsInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="PhpFullyQualifiedNameUsageInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="PhpMissingParamTypeInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
