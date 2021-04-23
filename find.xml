@@ -5,6 +5,7 @@
     <option name="searchOverloadedMethods" value="true" />
     <option name="SEARCH_OVERLOADED_METHODS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.js" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -14,11 +15,11 @@
     <mask>*.mxml</mask>
     <mask>*.php, *.js, *.tpl</mask>
     <mask>*econt*</mask>
-    <mask>*.js</mask>
     <mask>*.class.php</mask>
     <mask>*.css</mask>
     <mask>*Menu*.class.php</mask>
     <mask>*.php</mask>
     <mask>*.less</mask>
+    <mask>*.js</mask>
   </component>
 </application>
