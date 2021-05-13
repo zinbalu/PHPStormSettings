@@ -2,6 +2,7 @@
   <component name="PathMacrosImpl">
     <macro name="Node" value="C:/Program Files/nodejs" />
     <macro name="mods" value="C:/Program Files/nodejs/node_modules" />
+    <macro name="wk" value="C:/Program Files/wkhtmltopdf/bin" />
     <ignoredMacro name="MESSAGE" />
     <ignoredMacro name="FILE_PATH" />
     <ignoredMacro name="LINE" />
