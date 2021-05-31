@@ -3,9 +3,15 @@
     <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
   <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 9" />
+  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1" />
   </action>
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="alt n" />
