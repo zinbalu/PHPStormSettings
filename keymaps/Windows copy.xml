@@ -1,0 +1,19 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="CodeGlance.toggle" />
+  <action id="Console.TableResult.CompareCells" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift f9" />
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
+  <action id="Diff.ShowSettingsPopup" />
+  <action id="PhpListenDebugAction">
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
+  <action id="SaveAs" />
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="ctrl f2" />
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+  <action id="Uml.ShowDiff" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
+</keymap>
