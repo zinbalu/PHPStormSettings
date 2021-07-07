@@ -5,6 +5,7 @@
         <option name="disabled">
           <set>
             <option value="RUSSIAN" />
+            <option value="GREEK" />
           </set>
         </option>
       </State>
