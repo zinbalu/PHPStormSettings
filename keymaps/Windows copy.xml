@@ -1,4 +1,7 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
+  </action>
   <action id="CodeGlance.toggle" />
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="shift ctrl slash" />
@@ -16,6 +19,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl g" />
   </action>
   <action id="Diff.ShowSettingsPopup" />
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
+  </action>
   <action id="Jdbc.OpenConsole.New" />
   <action id="Jdbc.OpenConsole.New.Generate" />
   <action id="PhpListenDebugAction">
@@ -24,6 +30,7 @@
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="alt button2" />
   </action>
+  <action id="RecentLocations" />
   <action id="SaveAs" />
   <action id="Stop">
     <keyboard-shortcut first-keystroke="ctrl f2" />
